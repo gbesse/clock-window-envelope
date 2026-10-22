@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clock-window-envelope"
+version = "0.1.0a1"
+description = "FR: Calculer les fenêtres de rendez-vous robustes aux erreurs d’horloge | EN: Compute rendezvous windows robust to clock error | ES: Calcular ventanas de encuentro robustas al error de reloj"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+clock-window-envelope = "clock_window_envelope.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["clock_window_envelope*"]

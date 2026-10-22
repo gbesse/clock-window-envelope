@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Calculer les fenêtres de rendez-vous robustes aux erreurs d’horloge', 'en': 'Compute rendezvous windows robust to clock error', 'es': 'Calcular ventanas de encuentro robustas al error de reloj'}
